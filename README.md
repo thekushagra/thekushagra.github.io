@@ -11,7 +11,7 @@ Source code for my personal page. MIT Licensed. Contains a copy of my resume, as
 You can clone this repo using the code below -
 
 ```
-$ git clone https://github.com/thekushagra/kushagra.github.io
+$ git clone https://github.com/thekushagra/thekushagra.github.io
 ```
 
 If you do fork it, please let me know. [Thanks!](https://i.pinimg.com/originals/96/9c/3a/969c3a7d11ac4a0d6a5b73d90928603e.gif)
