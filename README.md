@@ -20,8 +20,8 @@ If you do fork it, please let me know. [Thanks!](https://i.pinimg.com/originals/
 
 ---
 
-[HTML5](https://developers.google.com/web/)
-[Bulma](https://bulma.io/) for CSS
-[jQuery](https://jquery.com/) for JS
-[GitHub Pages](https://pages.github.com/) for hosting
+[HTML5](https://developers.google.com/web/)  
+[Bulma](https://bulma.io/) for CSS  
+[jQuery](https://jquery.com/) for JS  
+[GitHub Pages](https://pages.github.com/) for hosting  
 [Git](https://git-scm.com/) for source control
