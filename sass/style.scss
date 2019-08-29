@@ -1,0 +1,119 @@
+$navbar-padding-vertical: 2rem;
+$navbar-padding-horizontal: 4rem;
+$navbar-item-hover-background-color: none;
+$navbar-item-hover-color: hsl(204, 86%, 53%);
+$navbar-item-color: hsl(0, 0%, 71%);
+
+@import '../node_modules/bulma/bulma.sass';
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.margin-bottom {
+	&-1 {
+		margin-bottom: 1rem !important;
+	}
+
+	&-2 {
+		margin-bottom: 2rem !important;
+	}
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 99%;
+	top: 0;
+	left: 0;
+}
+
+.preloader {
+	position: absolute;
+	width: 100vw;
+	max-width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background-color: #66ceff;
+	overflow: hidden;
+	z-index: 999;
+	transition: height 0.5s ease-in;
+
+	&::before {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-image: url('../img/preloader.gif');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	&.is-active {
+		height: 100vh;
+	}
+}
+
+.navbar {
+	& .navbar-brand {
+		& .navbar-logo {
+			padding: 0;
+			padding-left: 0.7rem;
+
+			& img {
+				height: 52px;
+				width: 52px;
+				max-height: 52px !important;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+.hero {
+	height: 100vh;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('../img/hero-bg.png');
+		background-size: cover;
+		background-position: center top;
+		background-repeat: no-repeat;
+		filter: opacity(0.4);
+	}
+
+	& .hero-body {
+		align-items: flex-end !important;
+
+		& h3.subtitle {
+			line-height: 1.5rem;
+		}
+	}
+
+	& .hero-foot {
+		& .icon {
+			margin: 0 1rem;
+
+			&:hover {
+				color: hsl(0, 0%, 29%) !important;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 998px) {
+	.navbar {
+		& .navbar-menu {
+			& .navbar-item {
+				text-transform: uppercase;
+			}
+		}
+	}
+}
