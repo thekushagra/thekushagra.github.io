@@ -4,8 +4,7 @@
   "description": "Source code for my personal page.",
   "main": "index.js",
   "dependencies": {
-    "bulma": "^0.7.5",
-    "particles.js": "^2.0.0"
+    "bulma": "^0.7.5"
   },
   "devDependencies": {},
   "scripts": {

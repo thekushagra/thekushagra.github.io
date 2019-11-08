@@ -117,3 +117,11 @@ $navbar-item-color: hsl(0, 0%, 71%);
 		}
 	}
 }
+
+@media screen and (min-width: 320px) {
+	.hero {
+		& .title.is-1 {
+			font-size: 2.6rem;
+		}
+	}
+}
